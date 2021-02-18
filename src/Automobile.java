@@ -27,7 +27,7 @@ public class Automobile {
     public String getFullInfo() {
         return getVyrobnyk() + " " + getModel() + getRikVypusku() +
                 "(" + getKolir() + ")\n" + "  $" + getTsina() + "\n"
-                + " " + getLitrivNa100Km() + " літрів на 100 кмб бак: "
+                + " " + getLitrivNa100Km() + " літрів на 100  кмб бак: "
                 + getRozmirBenzobaku() + "л\n";
     }
 
@@ -84,6 +84,7 @@ public class Automobile {
     public String getKolir() {
         return kolir;
     }
+
 
     public void setKolir(String kolir) {
         this.kolir = kolir;
