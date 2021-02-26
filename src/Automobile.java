@@ -9,7 +9,7 @@ public class Automobile {
     // модель, рік випуску, колір, ціну автомобіля
     // і чи має автомобіль відкідний дах.
 
-    // поля класу (class fields) - описують стан об'єкта цього класу
+    // поля класу (class fields) - описують стан об'єкта  цього класу.
     private String vyrobnyk;
     private String model;
     private int rikVypusku;
